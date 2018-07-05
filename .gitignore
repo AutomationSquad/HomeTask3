@@ -1,0 +1,9 @@
+#idea files
+.idea/
+*.iml
+# gradle build
+.gradle
+build/
+# idea build
+/out/
+testrail-api-client/out/
