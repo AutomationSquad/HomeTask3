@@ -9,7 +9,7 @@ public class Listener {
         try {
             Thread.sleep(50);
         }catch(Exception e){}
-    }
+    } 
 
     public static void getTimeAfter() {
         timeAfter = System.currentTimeMillis();

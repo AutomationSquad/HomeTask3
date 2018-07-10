@@ -38,7 +38,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void checkMultiplication() {
+    public void checkMultiplication()  {
         for (i = 0; i < arguments.length; i++) {
             Listener.getTimeBefore();
             res = Calculator.multiply(arguments[i][0], arguments[i][1]);

@@ -2,11 +2,11 @@ package calculator;
 
 public class Calculator {
 
-    public static int add(int first, int second){
+    public static int add(int first, int second) {
         return first + second;
     }
 
-    public static int substract(int minuend, int subtrahend){
+    public static int substract(int minuend, int subtrahend) {
         return minuend - subtrahend;
     }
 
