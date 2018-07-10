@@ -10,11 +10,11 @@ public class CalculatorTest {
 
     @BeforeClass
      public static void before(){
-        System.out.println("Test started..");
+        System.out.println("Test started...");
     }
     @AfterClass
      public static void after(){
-        System.out.println("..test finished.");
+        System.out.println("...test finished.");
     }
 
     @Before
