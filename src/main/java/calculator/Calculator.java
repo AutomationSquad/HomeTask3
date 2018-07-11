@@ -6,7 +6,7 @@ public class Calculator {
         return first + second;
     }
 
-    public int substract(int minuend, int subtrahend){
+    public int subtract(int minuend, int subtrahend){
         return minuend - subtrahend;
     }
 

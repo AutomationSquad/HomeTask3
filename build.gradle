@@ -31,4 +31,3 @@ dependencies {
     compile group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.2.0'
     compile group: 'org.junit.platform', name: 'junit-platform-launcher', version: '1.2.0'
 }
-
