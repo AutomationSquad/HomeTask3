@@ -17,7 +17,7 @@ public class TestListener implements AfterEachCallback, BeforeEachCallback {
     public void afterEach(ExtensionContext context) throws Exception {
         finishRunTime = System.currentTimeMillis();
         testRunTime = finishRunTime - startRunTime;
-        System.out.println("Execution time is "  + testRunTime + " ms");
+        System.out.println("Execution time for " + context.getTestMethod().get().getName() + context.getDisplayName() + " is " + testRunTime + " ms");
     }
 }
 
